@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Get Git Users",
+    "slug": "get-git-users",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+
+    "orientation": "portrait",
+    "icon": "./assets/github-logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.mmakweonyeka.get-git-users-app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mmakweonyeka.get_git_users",
+      "versionCode": 1
+    }
+  }
+}
